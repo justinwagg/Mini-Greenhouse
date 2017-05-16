@@ -6,6 +6,7 @@ This project monitors the temperature and humidity inside a greenhouse, as well 
 'launcher.sh' is called with cron and waits 5 seconds for MySQL to boot before running `green.py`.
 
 ## Pinout
+```	                            
 	                            J8
 	                           .___.              
 	                  +3V3---1-|O O|--2--+5V
@@ -29,3 +30,4 @@ Fan MOSFET			GPIO19--35-|O O|-36-----GPIO16
 Fan Power			GPIO26--37-|O O|-38-----GPIO20
 	                      _-39-|O O|-40-----GPIO21
 	                           '---'
+```	                           
