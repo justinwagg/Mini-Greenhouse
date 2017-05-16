@@ -1,0 +1,6 @@
+password.py
+*.log
+/pictures
+*.pyc
+.DS_Store
+.AppleDouble
